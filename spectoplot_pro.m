@@ -23,7 +23,7 @@ if nargin==4
     idx = ismember(newarray(:,1),lower);
     newarray= newarray(idx,:);
     
-    idx = ismember(newarray(:,1),upper);
+    idx = ismember(newarray(:,2),upper);
     newarray= newarray(idx,:);
     
         gA=newarray(:,6+2);
